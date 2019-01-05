@@ -10,7 +10,7 @@
       textarea.comparison-resizer(readonly)/
 </template>
 
-<style lang="sass">
+<style lang="sass" scoped>
   .comparison-slider
-    height: -webkit-fill-available
+    height: 100%
 </style>

@@ -1,11 +1,17 @@
 <template lang="pug">
   div(id="app")
+    Bar/
     router-view/
 </template>
 
 <script>
+import Bar from '@/components/Bar'
+
 export default {
-  name: 'app'
+  name: 'app',
+  components: {
+    Bar
+  }
 }
 </script>
 
